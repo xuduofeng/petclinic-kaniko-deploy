@@ -16,7 +16,7 @@ spec:
     spec:
       containers:
       - name: petclinic-test
-        image: eu.gcr.io/emea-sa-demo/petclinic-kaniko:latest
+        image: docker-register/petclinic-kaniko:latest
         imagePullPolicy: Always
         ports:
           - containerPort: 8080
