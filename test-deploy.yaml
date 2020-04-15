@@ -17,7 +17,7 @@ spec:
       containers:
       - name: petclinic-test
         image: jenkins-x-docker-registry:5000/petclinic-kaniko:latest
-        imagePullPolicy: Always
+        imagePullPolicy: IfNotPresent
         ports:
           - containerPort: 8080
             protocol: TCP
