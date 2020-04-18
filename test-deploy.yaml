@@ -16,7 +16,7 @@ spec:
     spec:
       containers:
       - name: petclinic-test
-        image: jenkins-x-docker-registry:5000/petclinic-kaniko:latest
+        image: harbor.wlaa.com.cn/library/petclinic-kaniko:latest
         imagePullPolicy: IfNotPresent
         ports:
           - containerPort: 8080
